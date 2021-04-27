@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+	color: #E8EAED;
+	background-color: #0f0f0f;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#login_info {
+	margin-top: 8%;
+	transition-duration: 1s;
+}
+
+#login_panel {
+	color: #0f0f0f; 
+	margin-top: 2%;
+    width:400px;
+    height:160px;
+    background:gray;
+	border-radius: 14px;
+	transition-duration: 1s;
+}
+
+.text_login {
+	font-family: 'Roboto Mono', monospace;
+	border: 0px;
+	border-radius: 10px/10px;
+	margin-top: 5%;
+	padding: 10px 10px; 
+	line-height: 28px;
+}
+
+#text_login:hover {
+	transform: scale(1.05);
+}
+
+#login_button {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 25px;
+	color: #E8EAED; 
+	margin-top: 3%;
+    width:400px;
+    height:80px;
+	border: 0px;
+    background:#114322;
+	border-radius: 14px;
+	transition-duration: 1s;
+}
+
+#login_button:hover {
+	color: #E8EAED; 
+	transform: scale(1.05);
+}
+
